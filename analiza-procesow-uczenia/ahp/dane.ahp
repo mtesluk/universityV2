@@ -191,7 +191,7 @@ Goal:
             if (a1$kolor == 'niebieski' & a2$kolor == 'szary') return (1/5)
             if (a1$kolor == 'szary' & a2$kolor == 'zielony') return (2)
             if (a1$kolor == a2$kolor) return (1)
-            return (1/ColorPreference(a2, a1))
+            return (ColorPreference(a2, a1))
           }
       children: *alternatives
     Cena:
